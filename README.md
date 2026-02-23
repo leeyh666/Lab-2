@@ -11,7 +11,148 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&family=New+Rocker&display=swap" rel="stylesheet">
 <style>
+        .header{
+            background-color: #ca28bc;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        #fontheader{
+            background-color: blue;
+            margin: 30px;
+            padding: 50px;
+            border-radius: 50px;
+        }
+        #h1header{
+            font-family:"New Rocker", cursive;
+            font-weight: 400;
+            font-style: italic;
+            color: aquamarine;
+            font-size: 36pt;
+            text-align: end;
+            margin-bottom: 0px;
+            text-decoration: underline;
+        }
+        #pheader{
+            text-align: end;
+            font-size: smaller;
+            font-family: "New Rocker", sans-serif;
+            margin-top: 0px;
+        }
+        .img{
+            width: 200px;
+            height: 150px;
+            float: right;
+            margin-left: 30px;
+        }
+        .option{
+            font-display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+                
+        }
+        li.menu{
+            padding: 10px 20px;
+            background-color:aqua;
+            color: aliceblue;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        li.menu.hover{
+            background-color: aqua;
+            color:azure;
+        }
+        .div1{
+            background-color:green ;
+            width: 80%;
+            height: auto;
+            margin-left: 10%;
+            border-radius: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 30px;
+
+        }
+        #pintro{
+            font-size: large;
+            font-family: cursive;
+            padding: 20px;
+        }
+        #h2intro{
+            padding: 20px;
         
+        }
+        .introduction{
+            background-color: greenyellow;
+            margin: 20px;
+        }
+        
+
+     .div2{
+        background-color:green ;
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 30px;
+        padding-top: 20px;
+        margin-top: 50px;
+
+     }
+    .imghobbies{
+        width: 300px;
+        height: 250px;
+        padding-left: 30px;
+        margin-bottom: 20px;
+    }
+    .hobbies{
+        background-color: aquamarine;
+        margin: 20px;
+    }
+    .footertest{
+        text-align: center;
+ 
+    }
+    .footer{
+        margin-top: 30px;
+    }
+    .div3{
+        background-color:green ;
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 20px;
+        padding-top: 30px;
+        margin-top: 50px;
+        display: flex;
+        gap: 20px;
+        
+    }
+  
+    .div3{
+        display: grid;
+        grid-template-rows: 50px 50px;
+        grid-template-columns: 300px 600px;
+         background-color:green ;
+        width: 80%;
+        height: auto;
+        margin-left: 10%;
+        border-radius: 30px;
+        padding-top: 20px;
+        margin-top: 50px;
+        gap: 20px;
+        font-size: large;
+
+    }
+    .namecol{
+        margin-left: 100px;
+        background-color: greenyellow;
+        margin-bottom: 20px;
+    }
+    .namecol2{
+        background-color: yellowgreen;
+        margin-bottom: 10px;
+    }
 
 
 </style>
